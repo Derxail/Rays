@@ -1,0 +1,3 @@
+D:/Work/Programming/VSCode-projects/Lab/Rays/build/CMakeFiles/main.dir
+D:/Work/Programming/VSCode-projects/Lab/Rays/build/CMakeFiles/edit_cache.dir
+D:/Work/Programming/VSCode-projects/Lab/Rays/build/CMakeFiles/rebuild_cache.dir
