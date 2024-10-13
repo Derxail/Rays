@@ -1,4 +1,0 @@
-d:
-cd D:\Work\Programming\VSCode-projects\Lab\Rays\build
-cmake .. -G "MinGW Makefiles"
-mingw32-make
