@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/Work/Programming/VSCode-projects/Lab/Rays/main.cpp" "CMakeFiles/main.dir/main.cpp.obj" "gcc" "CMakeFiles/main.dir/main.cpp.obj.d"
   "D:/Work/Programming/VSCode-projects/Lab/Rays/src/ray.cpp" "CMakeFiles/main.dir/src/ray.cpp.obj" "gcc" "CMakeFiles/main.dir/src/ray.cpp.obj.d"
+  "D:/Work/Programming/VSCode-projects/Lab/Rays/src/scene.cpp" "CMakeFiles/main.dir/src/scene.cpp.obj" "gcc" "CMakeFiles/main.dir/src/scene.cpp.obj.d"
   "D:/Work/Programming/VSCode-projects/Lab/Rays/src/utils.cpp" "CMakeFiles/main.dir/src/utils.cpp.obj" "gcc" "CMakeFiles/main.dir/src/utils.cpp.obj.d"
   "D:/Work/Programming/VSCode-projects/Lab/Rays/src/vec.cpp" "CMakeFiles/main.dir/src/vec.cpp.obj" "gcc" "CMakeFiles/main.dir/src/vec.cpp.obj.d"
   "D:/Work/Programming/VSCode-projects/Lab/Rays/src/viewport.cpp" "CMakeFiles/main.dir/src/viewport.cpp.obj" "gcc" "CMakeFiles/main.dir/src/viewport.cpp.obj.d"

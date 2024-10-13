@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/main.dir/main.cpp.obj.d"
   "CMakeFiles/main.dir/src/ray.cpp.obj"
   "CMakeFiles/main.dir/src/ray.cpp.obj.d"
+  "CMakeFiles/main.dir/src/scene.cpp.obj"
+  "CMakeFiles/main.dir/src/scene.cpp.obj.d"
   "CMakeFiles/main.dir/src/utils.cpp.obj"
   "CMakeFiles/main.dir/src/utils.cpp.obj.d"
   "CMakeFiles/main.dir/src/vec.cpp.obj"
