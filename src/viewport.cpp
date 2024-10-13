@@ -1,9 +1,10 @@
 #include "vec.h"
 #include "ray.h"
+#include "scene.h"
 #include "viewport.h"
 
-Viewport::Viewport(int pixel_width, double viewport_width, double aspect, 
-                   vec3 camera_pos, vec3 view_direct, vec3 up_direct) {
+Viewport::Viewport(Scene& scene, int pixel_width, double viewport_width, double aspect, 
+                   vec3 camera_pos, vec3 view_direct, vec3 up_direct): scene(scene) {
     this->pixel_width = pixel_width;
     this->pixel_height = int(pixel_width / aspect);
     this->pixel_height = (pixel_height < 1) ? 1 : pixel_height;
@@ -22,11 +23,11 @@ Viewport::Viewport(int pixel_width, double viewport_width, double aspect,
 
 color Viewport::pixel_color(int x, int y) const {
     scanning_ray.redirect((viewport_pos_ul + x * x_step + y * y_step) - camera_pos);
-    return ray_color(scanning_ray);
+    return scene.ray_color(scanning_ray);
 }
 
 color Viewport::scan() const {
-    color scan_color = ray_color(scanning_ray);
+    color scan_color = scene.ray_color(scanning_ray);
     vec3& dir = scanning_ray.direction();
     dir.add(x_step);
     scan_coords[0] += 1;

@@ -2,6 +2,7 @@
 #include <string>
 #include "vec.h"
 #include "ray.h"
+#include "scene.h"
 #include "viewport.h"
 
 using color = vec3;

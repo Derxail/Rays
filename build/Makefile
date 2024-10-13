@@ -176,6 +176,30 @@ src/ray.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/ray.cpp.s
 .PHONY : src/ray.cpp.s
 
+src/scene.obj: src/scene.cpp.obj
+.PHONY : src/scene.obj
+
+# target to build an object file
+src/scene.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/scene.cpp.obj
+.PHONY : src/scene.cpp.obj
+
+src/scene.i: src/scene.cpp.i
+.PHONY : src/scene.i
+
+# target to preprocess a source file
+src/scene.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/scene.cpp.i
+.PHONY : src/scene.cpp.i
+
+src/scene.s: src/scene.cpp.s
+.PHONY : src/scene.s
+
+# target to generate assembly for a file
+src/scene.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/scene.cpp.s
+.PHONY : src/scene.cpp.s
+
 src/utils.obj: src/utils.cpp.obj
 .PHONY : src/utils.obj
 
@@ -263,6 +287,9 @@ help:
 	@echo ... src/ray.obj
 	@echo ... src/ray.i
 	@echo ... src/ray.s
+	@echo ... src/scene.obj
+	@echo ... src/scene.i
+	@echo ... src/scene.s
 	@echo ... src/utils.obj
 	@echo ... src/utils.i
 	@echo ... src/utils.s

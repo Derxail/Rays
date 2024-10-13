@@ -1,0 +1,38 @@
+[
+{
+  "directory": "D:/Work/Programming/VSCode-projects/Lab/Rays/build",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/main.dir/includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles\\main.dir\\main.cpp.obj -c D:\\Work\\Programming\\VSCode-projects\\Lab\\Rays\\main.cpp",
+  "file": "D:/Work/Programming/VSCode-projects/Lab/Rays/main.cpp",
+  "output": "CMakeFiles/main.dir/main.cpp.obj"
+},
+{
+  "directory": "D:/Work/Programming/VSCode-projects/Lab/Rays/build",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/main.dir/includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles\\main.dir\\src\\utils.cpp.obj -c D:\\Work\\Programming\\VSCode-projects\\Lab\\Rays\\src\\utils.cpp",
+  "file": "D:/Work/Programming/VSCode-projects/Lab/Rays/src/utils.cpp",
+  "output": "CMakeFiles/main.dir/src/utils.cpp.obj"
+},
+{
+  "directory": "D:/Work/Programming/VSCode-projects/Lab/Rays/build",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/main.dir/includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles\\main.dir\\src\\vec.cpp.obj -c D:\\Work\\Programming\\VSCode-projects\\Lab\\Rays\\src\\vec.cpp",
+  "file": "D:/Work/Programming/VSCode-projects/Lab/Rays/src/vec.cpp",
+  "output": "CMakeFiles/main.dir/src/vec.cpp.obj"
+},
+{
+  "directory": "D:/Work/Programming/VSCode-projects/Lab/Rays/build",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/main.dir/includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles\\main.dir\\src\\ray.cpp.obj -c D:\\Work\\Programming\\VSCode-projects\\Lab\\Rays\\src\\ray.cpp",
+  "file": "D:/Work/Programming/VSCode-projects/Lab/Rays/src/ray.cpp",
+  "output": "CMakeFiles/main.dir/src/ray.cpp.obj"
+},
+{
+  "directory": "D:/Work/Programming/VSCode-projects/Lab/Rays/build",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/main.dir/includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles\\main.dir\\src\\scene.cpp.obj -c D:\\Work\\Programming\\VSCode-projects\\Lab\\Rays\\src\\scene.cpp",
+  "file": "D:/Work/Programming/VSCode-projects/Lab/Rays/src/scene.cpp",
+  "output": "CMakeFiles/main.dir/src/scene.cpp.obj"
+},
+{
+  "directory": "D:/Work/Programming/VSCode-projects/Lab/Rays/build",
+  "command": "C:\\MinGW\\bin\\g++.exe  @CMakeFiles/main.dir/includes_CXX.rsp -g -std=gnu++1z -o CMakeFiles\\main.dir\\src\\viewport.cpp.obj -c D:\\Work\\Programming\\VSCode-projects\\Lab\\Rays\\src\\viewport.cpp",
+  "file": "D:/Work/Programming/VSCode-projects/Lab/Rays/src/viewport.cpp",
+  "output": "CMakeFiles/main.dir/src/viewport.cpp.obj"
+}
+]
